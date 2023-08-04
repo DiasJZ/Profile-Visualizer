@@ -13,7 +13,7 @@ function App() {
           <input type='text' id='Search-bar' placeholder='Search...' />
         </div>
       <main className='Result'>
-        <b><box id='box-result'>Profiles....</box></b>
+        <b><box id='box-result'>Profiles...</box></b>
       </main>
     </div>
   );
