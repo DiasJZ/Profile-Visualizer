@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0 125px;
+  position: relative;
+  background-color: rgb(22, 27, 34);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  height: -100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; top: 5px; left: 50%; transform: translateX(-50%);
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 3px 1em black;
+  background-color: rgb(48, 54, 61);
+}
+
+div.Search {
+  height: 30px;
+  width: 500px;
+  position: fixed; top: 135px; left: 50%; transform: translateX(-50%);
+  background-color: rgb(48, 54, 61);
+  border-radius: 8px;
+  justify-content: center;
+  box-shadow: 0px 3px 1em black;
+}
+
+#Search-bar {
+  color: white;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#box-result {
+  font-size: 55px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(117, 117, 117);
+  height: 500px;
+  width: 1100px;
+  border: solid 2px white;
+  border-radius: 8px;
+  position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+  background-color: rgb(48, 54, 61);
+}
+
+#github {
+  height: 70px;
+  padding-left: 5px;
+}
