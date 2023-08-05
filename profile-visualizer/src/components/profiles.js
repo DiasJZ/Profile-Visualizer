@@ -25,5 +25,3 @@ getUsersFromGitHub()
   .catch(error => {
     console.error('Erro:', error.message);
   });
-
-  export default profiles;
