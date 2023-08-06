@@ -1,6 +1,8 @@
 import logo from './logo.svg';
+import { useState } from "react";
 import './App.css';
 import './components/profiles'
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         </div>
       <main className='Result'>
         <b><box id='box-result'>Profiles...</box></b>
+        <form name="bing" onsubmit=""></form>
       </main>
     </div>
   );
