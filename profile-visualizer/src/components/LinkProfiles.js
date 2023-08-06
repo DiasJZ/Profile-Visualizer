@@ -1,6 +1,7 @@
+import { useState } from 'react'
 const axios = require('axios');
 
-async function getUsersFromGitHub() {
+async function UserProfile() {
   try {
     const response = await axios.get('https://api.github.com/users');
     const users = response.data.map(user => {
@@ -18,10 +19,5 @@ async function getUsersFromGitHub() {
   }
 }
 
-getUsersFromGitHub()
-  .then(users => {
-    console.log(users);
-  })
-  .catch(error => {
-    console.error('Erro:', error.message);
-  });
+
+  
