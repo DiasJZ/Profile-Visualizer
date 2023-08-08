@@ -1,7 +1,6 @@
-import { useState } from 'react'
 const axios = require('axios');
 
-async function UserProfile() {
+async function getUsersFromGitHub() {
   try {
     const response = await axios.get('https://api.github.com/users');
     const users = response.data.map(user => {
@@ -14,10 +13,15 @@ async function UserProfile() {
 
     return users;
   } catch (error) {
-    console.error('Error:', error.message);
+    console.error('Erro ao buscar usuários do GitHub:', error.message);
     throw error;
   }
 }
 
-export default UserProfile
-  
+getUsersFromGitHub()
+  .then(users => {
+    console.log(users);
+  })
+  .catch(error => {
+    console.error('Erro:', error.message);
+  });

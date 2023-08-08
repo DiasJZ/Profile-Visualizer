@@ -12,7 +12,6 @@ function home(e) {
         </div>
       <main className='Result'>
         <b><box id='box-result'>Profiles...</box></b>
-        <form name="bing" onsubmit=""></form>
       </main>
         </div>
     )
