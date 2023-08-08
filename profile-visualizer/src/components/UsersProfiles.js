@@ -14,10 +14,10 @@ async function UserProfile() {
 
     return users;
   } catch (error) {
-    console.error('Erro ao buscar usuários do GitHub:', error.message);
+    console.error('Error:', error.message);
     throw error;
   }
 }
 
-
+export default UserProfile
   
