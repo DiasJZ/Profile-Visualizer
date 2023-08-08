@@ -18,12 +18,4 @@ async function getUsersFromGitHub() {
   }
 }
 
-getUsersFromGitHub()
-  .then(users => {
-    console.log(users);
-  })
-  .catch(error => {
-    console.error('Erro:', error.message);
-  });
-
-  export default Api
+  export default getUsersFromGitHub
