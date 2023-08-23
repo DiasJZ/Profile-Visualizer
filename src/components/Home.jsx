@@ -12,8 +12,12 @@ function Home(e) {
       </div>
       <main className="Result">
         <b>
-          <box id="box-result">Profiles...</box>
+          <div id="box-result">Profiles...</div>
         </b>
+        <template id="Profile-container">
+          <img className='Profile-image' src="" alt="" />
+          <p>Nome: <span></span></p>
+        </template>
       </main>
     </div>
   );
