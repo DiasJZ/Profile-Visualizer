@@ -9,6 +9,7 @@ function Home(e) {
       </header>
       <div className="Search">
         <input type="text" id="Search-bar" placeholder="Search..." />
+        <input type="button" id="searchBtn" placeholder="Search"/>
       </div>
       <main className="Result">
         <b>

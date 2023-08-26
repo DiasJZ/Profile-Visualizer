@@ -3,7 +3,6 @@ import { useState } from "react";
 import './App.css';
 import { Home } from './components/Home';
 import { getUsersFromGitHub } from './services/api'
-import {userAPI} from './services/api2'
 
 
 function App() {
